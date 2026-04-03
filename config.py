@@ -1,16 +1,18 @@
-# Bot Configuration
+# Complete Configuration for the Bot
 
-# Telegram Bot Token
-TOKEN = 'YOUR_TOKEN_HERE'
+# Example configurations
 
-# Admin ID
-ADMIN_ID = YOUR_ADMIN_ID_HERE
+# Set the token for authentication
+TOKEN = 'your_bot_token'
 
-# Group IDs
-GROUP_IDS = [GROUP_ID_1, GROUP_ID_2]
+# Log level configuration
+LOG_LEVEL = 'INFO'
 
-# MongoDB Connection String
-MONGODB_URI = 'YOUR_MONGODB_CONNECTION_STRING_HERE'
+# Settings for interacting with the API
+API_BASE_URL = 'https://api.example.com'
 
-# Other Settings
-# Any additional settings can be placed here
+# Additional settings
+DEBUG_MODE = False
+ENVIRONMENT = 'production'
+
+# Other configurations as needed...
